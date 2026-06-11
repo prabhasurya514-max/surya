@@ -1,0 +1,41 @@
+void main() {
+    /*
+    int[][] addendance = new int[5][3];
+    int[][] studentaddendance = {
+            {0, 1, 0},
+            {1, 0, 0},
+            {1, 1, 1},
+            {1, 0, 1},
+            {0, 0, 0}
+    };
+    for (int row = 0; row < studentaddendance.length; row++) {
+        System.out.println("Student " + (row + 1) + ":");
+        for (int col = 0; col < studentaddendance[row].length; col++) {
+            if (studentaddendance[row][col] == 1)
+                System.out.println("Class" + (col + 1) + ":Present");
+            else
+                System.out.println("Class" + (col + 1) + ":Absent");
+        }
+            System.out.println();
+    }
+}
+
+     */
+public int add(int a,int b){  new*
+   return a+b;
+}
+public int sub(int a,int b){ 1usage new*
+  return a-b;
+}
+public int multi(int a,int b){  2 usage new*
+  return a*b;
+}
+public int div(int a,int b){  3 usage new*
+  return a/b;
+}
+*/
+
+void main(){
+    string name ="vetias";
+    System.out.println(name.toUpperCase());
+}
