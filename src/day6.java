@@ -45,7 +45,7 @@
         car.Showfuel();
     }
 }*/
-class Day5marks {
+/*class Day5marks {
 
     static class Student {
         String name, dept;
@@ -113,5 +113,7 @@ class Day5marks {
         s2.show();
         s3.show();
     }
-}
+}*/
+
+
 
