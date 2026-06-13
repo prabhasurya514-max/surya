@@ -56,7 +56,9 @@ import java.sql.SQLOutput;
 
     }
 }*/
+
 public class day8{
+    /*
    record CourseRecord(String dept,String section) {
    }
    }
@@ -65,7 +67,26 @@ public class day8{
        System.out.println(courseRecord.dept());
        System.out.println(courseRecord.section());
 
-   }
+   }*/
+    enum LANGUAGE{
+    EN ("English"),
+    GR ("German"),
+    JP ("Japanese"),
+    TA ("Tamil");
+
+
+    String description;
+    LANGUAGE(String description){
+        this.description = description;
+    }
+}
+static void main(){
+    System.out.println(day8.LANGUAGE.EN.description);
+    System.out.println(LANGUAGE.GR.description);
+    System.out.println(LANGUAGE.JP.description);
+    System.out.println(LANGUAGE.TA.description);
+}
+}
 
 
 
