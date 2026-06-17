@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -26,8 +27,8 @@ public class day10 {
         }
     }
 }*/
-/*public class day10 {
-    static void main(){
+public class day10 {
+/*    static void main(){
         LinkedList<String> student= new LinkedList<String>();
         student.add("a");
         student.add("b");
@@ -39,12 +40,12 @@ public class day10 {
     }
         static void process(LinkedList<String>student){
             String removed=student.removeFirst();
-            System.out.println("removed:"+removed);
+                System.out.println("removed:"+removed);
         }
     }*/
 
 
-    static void process(LinkedList<String> list) {
+    /*static void process(LinkedList<String> list) {
         System.out.println("Removed : " + list.removeFirst());
     }
 
@@ -79,4 +80,22 @@ public class day10 {
         System.out.println("\nAfter Updating:");
         System.out.println(list);
     }
-
+*/
+static void main(){
+  String name=null;
+  try{
+      System.out.println(name.charAt(0));
+      System.out.println(35/0);
+  }catch (ArithmeticException e){
+      System.out.println("ArithmeticException");
+  }catch(ArrayIndexOutOfBoundsException e){
+  }catch (Exception e){
+      System.out.println("Exception");
+  }finally {
+      System.out.println("this will always execute");
+      name="";
+  }
+    System.out.println("still running");
+    System.out.println("Name :"+name);
+  }
+}
