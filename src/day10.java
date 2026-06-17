@@ -27,7 +27,7 @@ public class day10 {
         }
     }
 }*/
-public class day10 {
+public class day10{
 /*    static void main(){
         LinkedList<String> student= new LinkedList<String>();
         student.add("a");
@@ -81,6 +81,7 @@ public class day10 {
         System.out.println(list);
     }
 */
+    /*
 static void main(){
   String name=null;
   try{
@@ -98,4 +99,5 @@ static void main(){
     System.out.println("still running");
     System.out.println("Name :"+name);
   }
-}
+}*/
+
