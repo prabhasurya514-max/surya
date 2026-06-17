@@ -42,3 +42,41 @@ public class day10 {
             System.out.println("removed:"+removed);
         }
     }*/
+
+
+    static void process(LinkedList<String> list) {
+        System.out.println("Removed : " + list.removeFirst());
+    }
+
+    public static void main(String[] args) {
+
+        LinkedList<String> list = new LinkedList<>();
+
+        // Add 5 students
+        list.add("101 - surya - 85");
+        list.add("102 - prabha- 78");
+        list.add("103 - Charan - 90");
+        list.add("104 - ruba - 88");
+        list.add("105 - arun - 75");
+
+        System.out.println("Student List:");
+        System.out.println(list);
+
+        // Add one student
+        list.add("106 - Farhan - 92");
+        System.out.println("\nAfter Adding:");
+        System.out.println(list);
+
+        // Remove one student
+        process(list);
+
+        System.out.println("\nAfter Removing:");
+        System.out.println(list);
+
+        // Update one student
+        list.set(2, "104 - Dinesh - 95");
+
+        System.out.println("\nAfter Updating:");
+        System.out.println(list);
+    }
+
