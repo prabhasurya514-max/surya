@@ -1,0 +1,30 @@
+public class day15 {
+    interface Notification{
+        void send(String to, String message);
+    }
+    class CreditNotification implements Notification{
+        @Override
+        public void send(String to, String message){
+            System.out.println("Amount Credited 800: "+message+", to"+to);
+        }
+
+    }
+    class DebitNotification implements Notification{
+        @Override
+        public void send(String to, String message){
+            System.out.println("Amount Debited 800: "+message+", to"+to);
+        }
+    }
+    static Notification getNotification(day15 factory, String type){
+        return switch (type){
+            case"Credit"-> factory.new CreditNotification();
+            case"Debit"-> factory.new DebitNotification();
+            default -> throw new IllegalArgumentException("Invalid account type:"+ type);
+        };
+    }
+    static void main(){
+        day15 factory = new day15();
+        String type = "Credit";
+        getNotification(factory,type).send(" 578969560","Amount 7000 credited");
+    }
+}

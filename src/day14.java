@@ -1,4 +1,4 @@
-public class day14 {
+/*public class day14 {
 
     static class Student {
         String name;
@@ -49,3 +49,6 @@ public class day14 {
         System.out.println(student.regno);
     }
 }
+*/
+
+
