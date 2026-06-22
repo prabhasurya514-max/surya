@@ -27,7 +27,7 @@ public class day10 {
         }
     }
 }*/
-public class day10{
+/*public class day10{
 /*    static void main(){
         LinkedList<String> student= new LinkedList<String>();
         student.add("a");

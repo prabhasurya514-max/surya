@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class day11 {
+/*public class day11 {
     /*
     public static void main(String[] args) {
                 Set<String> Set = new HashSet<>();
@@ -14,7 +14,7 @@ public class day11 {
             System.out.println(s);
     }
 }*/
-    static void main() {
+   /*  static void main() {
 
         Map<String, Integer> person = new HashMap<>();
         person.put("Ram", 89);
@@ -26,7 +26,8 @@ public class day11 {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         });
     }
-}
+}*/
+*/
 
 
 
