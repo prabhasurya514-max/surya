@@ -1,7 +1,7 @@
 import java.util.*;
 
-/*public class day11 {
-    /*
+public class day11 {
+
     public static void main(String[] args) {
                 Set<String> Set = new HashSet<>();
         Set.add("student1");
@@ -13,8 +13,8 @@ import java.util.*;
         for (String s : Set)
             System.out.println(s);
     }
-}*/
-   /*  static void main() {
+}
+static void main() {
 
         Map<String, Integer> person = new HashMap<>();
         person.put("Ram", 89);
@@ -26,8 +26,7 @@ import java.util.*;
             System.out.println(entry.getKey() + " : " + entry.getValue());
         });
     }
-}*/
-*/
+
 
 
 

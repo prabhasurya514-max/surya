@@ -1,4 +1,4 @@
-public class day15 {
+/*public class day15 {
     interface Notification{
         void send(String to, String message);
     }
@@ -25,6 +25,36 @@ public class day15 {
     static void main(){
         day15 factory = new day15();
         String type = "Credit";
-        getNotification(factory,type).send(" 578969560","Amount 7000 credited");
+        getNotification(factory,type).send(" 578969560","Amount 700 0 credited");
+    }
+}*/
+
+public class day15 {
+
+    interface NewPrinter {
+        void print(String text);
+    }
+
+    static class OldPrinter {
+        void printText(String text) {
+            System.out.println("OLD Printer : "+text);
+        }
+    }
+
+    static class OldPrinterAdapter implements NewPrinter {
+        private final OldPrinter printer;
+        OldPrinterAdapter(OldPrinter printer) {
+            this.printer = printer;
+        }
+
+        @Override
+        public void print(String text){
+            printer.printText(text);
+        }
+    }
+
+    static void main() {
+        NewPrinter printer = new OldPrinterAdapter(new OldPrinter());
+        printer.print("Hello World");
     }
 }
