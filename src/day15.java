@@ -25,7 +25,7 @@
     static void main(){
         day15 factory = new day15();
         String type = "Credit";
-        getNotification(factory,type).send(" 578969560","Amount 700 0 credited");
+        getNotification(factory,type).send(" 578969560","Amount 7000 credited");
     }
 }*/
 
